@@ -4,11 +4,11 @@ import java.util.Collection;
 import java.util.List;
 
 public class Human extends Mammal {
-    @Override
-    public void eat(List<String> food) {
-        drink(List.of("soda"));
-        super.eat(food);
-    }
+//    @Override
+//    public void eat(List<String> food) {
+//        drink(List.of("soda"));
+//        super.eat(food);
+//    }
 
     @Override
     public void eat(Collection<String> food) {
@@ -23,6 +23,7 @@ public class Human extends Mammal {
         System.out.println("sleeping...");
     }
 
+    //only exists in v2
     public void doubleWork() {
         work();
         work();

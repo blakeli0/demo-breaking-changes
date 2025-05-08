@@ -10,10 +10,10 @@ public abstract class Mammal
         System.out.println("drinking in Mammal...");
     }
 
-    @Override
-    public void eat(List<String> food) {
-        food.forEach(f -> System.out.println("Ate: " + f));
-    }
+//    @Override
+//    public void eat(List<String> food) {
+//        food.forEach(f -> System.out.println("Ate: " + f));
+//    }
 
     @Override
     public void eat(Collection<String> food) {

@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>library</artifactId>
-            <version>2.0</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 </project>
