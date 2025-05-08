@@ -6,7 +6,6 @@ import java.util.List;
 public class Human extends Mammal{
     @Override
     public void eat(List<String> food) {
-        drink(List.of("soda"));
         super.eat(food);
     }
 
@@ -24,8 +23,8 @@ public class Human extends Mammal{
         System.out.println("10 hours of work...");
     }
 
-    void drink(List<String> drinks) {
-        System.out.println("drinking...");
+    public static void drink(List<String> drinks) {
+        System.out.println("drinking in Human...");
     }
 
     public void sleep() {

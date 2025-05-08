@@ -14,6 +14,10 @@ public abstract class Mammal implements Animal{
         food.forEach(f -> System.out.println("Ate: " + f));
     }
 
+    public static void drink(List<String> drinks) {
+        System.out.println("drinking in Mammal...");
+    }
+
     protected void walk() {
         System.out.println("walking");
     }

@@ -1,6 +1,7 @@
 package org.example.libraryWrapper;
 
 import org.example.Human;
+import org.example.Mammal;
 
 import java.util.List;
 
@@ -13,7 +14,9 @@ public class Employer {
         manager.eat(List.of("apple", "burger"));
         //this method is changed to static in v2
 //        manager.sleep();
-
+        manager.drink(List.of("soda"));
+        Human.drink(List.of("soda"));
+        Mammal.drink(List.of("soda"));
         manager.work();
         manager.run();
 

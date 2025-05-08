@@ -4,14 +4,18 @@ import java.util.Collection;
 import java.util.List;
 
 public abstract class Mammal
-//        implements Animal
+        implements Animal
 {
-//    @Override
+    public static void drink(List<String> drinks) {
+        System.out.println("drinking in Mammal...");
+    }
+
+    @Override
     public void eat(List<String> food) {
         food.forEach(f -> System.out.println("Ate: " + f));
     }
 
-//    @Override
+    @Override
     public void eat(Collection<String> food) {
         food.forEach(f -> System.out.println("Ate: " + f));
     }
