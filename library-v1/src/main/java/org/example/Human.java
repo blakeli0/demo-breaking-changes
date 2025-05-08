@@ -24,7 +24,7 @@ public class Human extends Mammal{
     }
 
     public static void drink(List<String> drinks) {
-        System.out.println("drinking in Human...");
+        System.out.println("drinking...");
     }
 
     public void sleep() {

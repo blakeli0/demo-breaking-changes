@@ -15,7 +15,7 @@ public abstract class Mammal implements Animal{
     }
 
     public static void drink(List<String> drinks) {
-        System.out.println("drinking in Mammal...");
+        System.out.println("drinking...");
     }
 
     protected void walk() {
